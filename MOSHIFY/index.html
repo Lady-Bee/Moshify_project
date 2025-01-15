@@ -1,29 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    
-</head>
-<body>
-   <div class="collapsible collapsible--expanded">
-        <header class="collapsible__header">
-            <h2 class="collapsible__heading">Item 1</h2>
-                <!-- <svg class="icon icon--primary collapsible__chevron">
-                    <use xlink:href="images/sprite.svg#chevron"></use>
-                </svg> -->
-                <img class="icon icon--primary collapsible__chevron " src="images/chevron.svg" alt="Chevron icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+  </head>
+  <body>
+    <section class="block container">
+      <header class="block__header">
+          <h2 class="block__heading">Heading</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non est quas
+            distinctio earum odit voluptatum impedit numquam, deleniti veritatis,
+            officiis illo libero nihil molestiae dolore adipisci ex inventore eius!
+            Odit.
+          </p>
         </header>
-        <div class="collapsible__content">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, aut aliquam ipsum esse minima enim pariatur omnis eligendi, qui, saepe officiis vero eos dolore numquam fuga eaque provident eius tempore!
+      <div style="width: 30%; padding: 4rem">
+        <div class="card card--secondary">
+          <header class="card__header">Card Title</header>
+          <div class="card__body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+            deserunt suscipit nihil ut, laudantium doloribus cumque assumenda,
+            quod harum voluptates numquam ab ipsum porro. Similique asperiores
+            pariatur voluptatem sint. Dicta.
+          </div>
         </div>
-   </div>
-   <script src="js/main.js"></script>
-</body>
+      </div>
+    </section>
+
+    <section class="block block--dark block--skewed-left container">
+      <div class="container">
+          <h2 class="block__heading">Heading</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non est quas
+            distinctio earum odit voluptatum impedit numquam, deleniti veritatis,
+            officiis illo libero nihil molestiae dolore adipisci ex inventore eius!
+            Odit.
+          </p>
+      </div>
+    </section>
+    <script src="js/main.js"></script>
+  </body>
 </html>
